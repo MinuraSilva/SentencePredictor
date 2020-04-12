@@ -2,7 +2,7 @@ Data Source: [Cook County Government Open Data](https://datacatalog.cookcountyil
 
 ## Links to Notebooks
 1. [Data Cleaning](https://github.com/MinuraSilva/Sentencing/blob/master/Sentencing_data_cleaning.ipynb) - A lot of code but not much interesting here.
-2. [Exploratory Data Analysis](https://nbviewer.jupyter.org/github/MinuraSilva/Sentencing/blob/master/Exploratory_data_analysis.ipynb) - This is the link to nbviewer for dynamically displaying the file hosted on this repository. This has a lot of nice plots and analysis.
+2. [Exploratory Data Analysis](http://nbviewer.jupyter.org/github/MinuraSilva/Sentencing/blob/master/Exploratory_data_analysis.ipynb?flush_cache=true) - This is the link to nbviewer for dynamically displaying the file hosted on this repository. This has a lot of nice plots and analysis.
 3. [Predictive Model](https://github.com/MinuraSilva/Sentencing/blob/master/Model_prediction.ipynb) - This is a model to predict the sentence for a given crime.
 
 ## A Story of [Race,] Crime and Punishment
