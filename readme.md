@@ -38,7 +38,7 @@ Despite these problems, this dataset is incredibly valuable since, even with a l
 This might be due of privacy issues or perhaps governments don't want to hand over data which might be used to criticize them.
 
 ## Notes on Data Cleaning
-- I have manually inspected and analyzed the dataset (see Preliminary_Exploratory_data_analysis.ipynb) for errors and either removed the offending rows or tried to coerce it to a reasonable value where possible.
+- I have manually inspected and analyzed the dataset (see this rather messy [notebook](https://github.com/MinuraSilva/Sentencing/blob/master/Preliminary_Exploratory_data_analysis.ipynb)) for errors and either removed the offending rows or tried to coerce it to a reasonable value where possible.
 - Around 2% of the original rows were found to have errors and discarded. The actual number of rows with errors is almost certainly higher.
 - The assumptions I have made in cleaning the data along with some commentary can be seen in the Data Cleaning notebook.
 
