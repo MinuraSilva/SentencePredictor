@@ -29,10 +29,10 @@ Most of the examples date to the previous decade.
 <br>
 <br>
 From a data analyst's perspective, this dataset has a few drawbacks:
-- First: There is no documentation beyond a short and often unhelpful description of each column.
-- Second: There is no information on whether this dataset is complete
-- Third: There obvious errors which could be determined from the context of the other columns of an example.
-- Fourth: The data is inconsistent between rows, For instance, a Life Sentence can appear in one of two columns.
+1. There is no documentation beyond a short and often unhelpful description of each column.
+1. There is no information on whether this dataset is complete
+1. There obvious errors which could be determined from the context of the other columns of an example.
+1. The data is inconsistent between rows, For instance, a Life Sentence can appear in one of two columns.
 
 Despite these problems, this dataset is incredibly valuable since, even with a lot of searching, I couldn't find a similar public dataset published by another government anywhere in the world.<br>
 This might be due of privacy issues or perhaps governments don't want to hand over data which might be used to criticize them.
