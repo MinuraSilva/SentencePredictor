@@ -38,15 +38,15 @@ Despite these problems, this dataset is incredibly valuable since, even with a l
 This might be due of privacy issues or perhaps governments don't want to hand over data which might be used to criticize them.
 
 ## Notes on Data Cleaning
-I have manually inspected and analyzed the dataset (see Preliminary_Exploratory_data_analysis.ipynb) for errors and either removed the offending rows or tried to coerce it to a reasonable value where possible.<br>
-Around 2% of the original rows were found to have errors and discarded. The actual number of rows with errors is almost certainly higher.<br>
-The assumptions I have made in cleaning the data along with some commentary can be seen in the Data Cleaning notebook.
+- I have manually inspected and analyzed the dataset (see Preliminary_Exploratory_data_analysis.ipynb) for errors and either removed the offending rows or tried to coerce it to a reasonable value where possible.
+- Around 2% of the original rows were found to have errors and discarded. The actual number of rows with errors is almost certainly higher.
+- The assumptions I have made in cleaning the data along with some commentary can be seen in the Data Cleaning notebook.
 
 ### Warnings on the analysis of this Dataset
-A significant issue with this dataset is that no information is provided on whether this dataset is complete, and if not, whether the sampling is unbiased.<br>
-This makes any conclusion drawn from this dataset potentially unrepresentative of crime in general in Cook County.<br>
-I have looked for obvious biases in the dataset (see Preliminary_exploratory_data_analysis.ipynb) and not found obvious signs that the sampling is skewed.<br>
-Going forward, I will assume that the dataset is a representative sample.
+- A significant issue with this dataset is that no information is provided on whether this dataset is complete, and if not, whether the sampling is unbiased.
+- This makes any conclusion drawn from this dataset potentially unrepresentative of crime in general in Cook County.<br>
+- I have looked for obvious biases in the dataset (see Preliminary_exploratory_data_analysis.ipynb) and not found obvious signs that the sampling is skewed.
+- Going forward, I will assume that the dataset is a representative sample.
 
 ### Limitations of my Expertise
 - Justicial System: I have an extremely limited understanding of the judicial system (I have had to frequently look online to make sense of the dataset).<br> It is possible that I could have misunderstood certain things about the judicial system which might make the decisions I made during data cleaning and analysis invalid.
