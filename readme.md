@@ -3,14 +3,14 @@
 Data Source: [Cook County Government Open Data](https://datacatalog.cookcountyil.gov/Courts/Sentencing/tg8v-tm6u)
 
 Information for Users:
-- First have a look at the Exploratory Data Analysis Notebook (from the nbviewer link below).
+- First have a look at the Exploratory Data Analysis Notebook (from the dynamic link below).
 - Then go to the Predictive Model notebook where I attempt to predict the type of criminal sentence given information about the crime.
 - You probably wouldn't find much interesting in the Data Cleaning Notebook unless you're interested in the decisions I made to clean the data.
     
 
 ## Links to Notebooks
 1. [Data Cleaning](https://github.com/MinuraSilva/Sentencing/blob/master/Sentencing_data_cleaning.ipynb) - A lot of code but not much interesting here.
-2. [Exploratory Data Analysis](http://nbviewer.jupyter.org/github/MinuraSilva/Sentencing/blob/master/Exploratory_data_analysis.ipynb) - This is the link to nbviewer for dynamically displaying the file hosted on this repository. This has a lot of nice plots and analysis.
+2. [Exploratory Data Analysis](https://minurasilva.github.io/Sentencing/Exploratory_data_analysis.html) - This is the link to dynamically displaying jupyter notebook displayed through GitHub Pages. This has a lot of nice plots and analysis.
 3. [Predictive Model](https://github.com/MinuraSilva/Sentencing/blob/master/Model_prediction.ipynb) - This is a model to predict the sentence for a given crime.
 
 The data for this project comes from the [Cook County Sentencing Dataset](https://datacatalog.cookcountyil.gov/Courts/Sentencing/tg8v-tm6u).<br><br>
