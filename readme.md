@@ -30,7 +30,7 @@ Most of the examples date to the previous decade.
 <br>
 From a data analyst's perspective, this dataset has a few drawbacks:
 1. There is no documentation beyond a short and often unhelpful description of each column.
-1. There is no information on whether this dataset is complete
+1. There is no information on whether this dataset is complete.
 1. There obvious errors which could be determined from the context of the other columns of an example.
 1. The data is inconsistent between rows, For instance, a Life Sentence can appear in one of two columns.
 
