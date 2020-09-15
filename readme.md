@@ -50,5 +50,5 @@ This might be due of privacy issues or perhaps governments don't want to hand ov
 
 ### Limitations of my Expertise
 - Justicial System: I have an extremely limited understanding of the judicial system (I have had to frequently look online to make sense of the dataset).<br> It is possible that I could have misunderstood certain things about the judicial system which might make the decisions I made during data cleaning and analysis invalid.
-- Statistics: I have a fairly limited knowledge of statistics so my statistical inferences may be incorrect.
+- Statistics: My knowledge of statistics extends only to a couple of undergrad statistics courses, so my statistical inferences may be incorrect.
 - Machine Learning: For the predictive model, I use machine learning of which the known limitations and ethical issues are [plenty](https://en.wikipedia.org/wiki/Machine_learning#Limitations).
