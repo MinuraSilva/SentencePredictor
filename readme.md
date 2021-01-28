@@ -10,7 +10,7 @@ Information for Users:
 
 ## Links to Notebooks
 1. [Data Cleaning](https://github.com/MinuraSilva/Sentencing/blob/master/Sentencing_data_cleaning.ipynb) - A lot of code but not much interesting here.
-2. [Exploratory Data Analysis](https://minurasilva.github.io/Sentencing/Exploratory_data_analysis.html) - This is the link to dynamically displaying jupyter notebook displayed through GitHub Pages. This has a lot of nice plots and analysis.
+2. [Exploratory Data Analysis](https://minurasilva.github.io/SentencePredictor/Exploratory_data_analysis.html) - This is the link to dynamically displaying jupyter notebook displayed through GitHub Pages. This has a lot of nice plots and analysis.
 3. [Predictive Model](https://github.com/MinuraSilva/Sentencing/blob/master/Model_prediction.ipynb) - This is a model to predict the sentence for a given crime.
 
 The data for this project comes from the [Cook County Sentencing Dataset](https://datacatalog.cookcountyil.gov/Courts/Sentencing/tg8v-tm6u).<br><br>
