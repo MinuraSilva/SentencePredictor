@@ -2,6 +2,12 @@
 
 Data Source: [Cook County Government Open Data](https://datacatalog.cookcountyil.gov/Courts/Sentencing/tg8v-tm6u)
 
+**Summary**
+In this project, I attempt to predict a criminal sentence based on information about the crime using a machine learning model (boosted decision trees). The information I use to train the model is from the [Cook County Sentencing Dataset](https://datacatalog.cookcountyil.gov/Courts/Sentencing/tg8v-tm6u) and includes fields with various information on the kind of crime committed, demographic information of the criminal and the criminal sentence. The machine learning model attempts to use all other fields to predict the criminal sentence (I have had to simplify this to simply predicting the categorical kind of sentence, such as probation, boot camp or prison. The model has 69% accuracy (up from 58% baseline accuracy using a dummy classifier). In my opinion, a some of the significant reason for the relatively modest improvement in accuracy are:
+1. There is insufficient information contained within the dataset on the crime committed; for instance it may be difficult to tell where an offense for drug posession transitions from being a misdemeanour to a felony.
+2. Certain important aspects such as whether the person has previously committed a similar offense are not present in this dataset. This is known to significantly affect the sentence.
+3. Many cases involve crimes where the person is charged with multiple offenses. In this dataset, these offenses are presented in separate rows with an identifier to link them together. In these cases, it appears to me that the 'sentence' is the verdict for all of the offenses considered. I have not merged these multiple offenses together (due to time and complexity constraints) and this  will cause issues, such as when a small offense in a multiple offense case has the severe sentence of all the offenses combined.
+
 Information for Users:
 - First have a look at the Exploratory Data Analysis Notebook (from the dynamic link below).
 - Then go to the Predictive Model notebook where I attempt to predict the type of criminal sentence given information about the crime.
