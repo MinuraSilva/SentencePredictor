@@ -2,7 +2,10 @@
 
 Data Source: [Cook County Government Open Data](https://datacatalog.cookcountyil.gov/Courts/Sentencing/tg8v-tm6u)
 
-**Summary**
+## Disclaimer
+This project was done to fulfill the requirements of an undergrad programming course. If you've come here because you are interested in the effects of race on criminal sentencing, I welcome you to explore, but I would like to caution you that the inferences and models in this project may or may not be valid. Please see further information on the limitations of this project at the bottom of this readme.  
+
+## Summary
 In this project, I attempt to predict a criminal sentence based on information about the crime using a machine learning model (boosted decision trees). The information I use to train the model is from the [Cook County Sentencing Dataset](https://datacatalog.cookcountyil.gov/Courts/Sentencing/tg8v-tm6u) and includes fields with various information on the kind of crime committed, demographic information of the criminal and the criminal sentence. The machine learning model attempts to use all other fields to predict the criminal sentence (I have had to simplify this to simply predicting the categorical kind of sentence, such as probation, boot camp or prison. The model has 69% accuracy (up from 58% baseline accuracy using a dummy classifier). In my opinion, a some of the significant reason for the relatively modest improvement in accuracy are:
 1. There is insufficient information contained within the dataset on the crime committed; for instance it may be difficult to tell where an offense for drug posession transitions from being a misdemeanour to a felony.
 2. Certain important aspects such as whether the person has previously committed a similar offense are not present in this dataset. This is known to significantly affect the sentence.
